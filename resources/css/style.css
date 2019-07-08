@@ -1,0 +1,578 @@
+/**** 
+color #6610f2  #6c63ff**/
+
+/** Header **/
+
+.section {
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.section-tools {
+    background-color: #fdfdfd;
+    box-shadow: #555;
+}
+.navbar-brand {
+    font-size: 25px;
+    font-weight: 800;
+    color: #000000;
+    border: 1px solid transparent;
+}
+
+.navbar-brand:hover {
+    color: #000000;
+}
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.nav-link {
+    color: #1b1b1b;
+    margin-left: 30px;
+}
+
+.nav-link:hover {
+    color: #06668b;
+}
+
+.navbar-toggler {
+    color: rgba(22, 19, 19, 0.5);
+    border-color: rgba(255,255,255,.1);
+    border: 1px solid #000000;
+}
+.navbar-toggler-icon {
+    color: #000000;
+}
+
+.collapse.show {
+    display: block;
+}
+/*
+.mobile-nav-icon {
+    float: right;
+    margin-top: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+}
+*/
+/** Hero **/
+
+.illustration {
+    width: 60rem;
+}
+
+.heading-top {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    word-spacing: 1px;
+    margin-bottom: 30px;
+}
+.paragraph {
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 20px;
+}
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px 0 0 8px;
+}
+
+.btn-sign-up {
+    padding: 10px 30px;
+    background-color: #6610f2;
+    color: #fff;
+    border: 1px solid #6610f2;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-sign-up:hover {
+    background-color: #6c63ff;
+    border: 1px solid #6c63ff;
+}
+
+.form-control-lg {
+   min-width: 200px;
+   border-radius: 8px 0 0 8px;
+
+}
+
+.btn {
+    background-color: #6610f2;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 8px 44px;
+}
+
+.btn:hover {
+    background-color: #6c63ff;
+    border: 1px solid transparent;
+}
+
+.social-links {
+    list-style: none;
+    text-align: center;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.icon-twitter {
+    color: #555;
+}
+
+.icon-twitter:hover {
+    color: #0ab1e9;
+    text-decoration: none;
+}
+
+.tweet {
+    margin-right: 5px;
+}
+.tweet:hover {
+    color: #0ab1e9;
+    text-decoration: none;
+}
+
+.icon-facebook {
+    color: #555; 
+}
+
+.icon-facebook:hover {
+    color: #2e2ea0;
+    text-decoration: none;
+}
+.facebook {
+    margin-right: 5px;
+    color: #555;
+}
+
+.facebook:hover {
+    color: #2e2ea0;
+}
+
+
+
+/* Tools */
+
+.photo-box {
+    text-align: center;
+    margin-left: 80px;
+}
+
+.photo {
+    width: 300px;
+}
+
+.about {
+    text-align: center;
+}
+
+.about-paragraph {
+    padding-bottom: 40px;
+    font-size: 17px;
+    
+}
+.about-heading {
+    padding-bottom: 12px;
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+
+/* VIEWS */
+
+.section-news {
+    background-color: #edeff1;
+}
+
+.news-heading {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 12px 0 30px 0;
+    line-height: 1.16em;
+    
+}
+
+.news-paragraph {
+    font-size: 18px;
+    color: #6c757d;
+    margin-bottom: 0;
+    margin-left: 6px; 
+}
+
+.news {
+    margin-left: 40px;
+    margin-top: 90px;
+}
+
+.news-photo {
+    margin-top: 70px;
+    margin-right: 40px;
+}
+
+.illustrations {
+    margin-right: 70px;
+    padding-left: 0px;
+    width: 350px;
+}
+
+/* HIRING */
+
+.button1 {
+    /*margin-left: 450px;*/
+    margin-bottom: 100px;
+    padding: 9px 37px;
+}
+
+.section-jobs .paragraph {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.jobs-body {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    /* text-align: center; */
+    height: 70px;
+    background-color: #e1e2e4;
+    width: 11rem;
+    margin-bottom: 30px;
+    margin-left: 90px;
+}
+
+.jobs {
+    border: 1px solid rgba(80, 80, 80, 0.125);
+    border-radius: .29rem;
+    width: 11rem;
+    margin-left: 90px;
+}
+
+.job-box {
+    margin-left: 80px;
+}
+
+
+.jobs-image {
+    width: 10rem;
+    margin-left: 7px;
+}
+
+.jobs-heading {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.jobs-paragraph {
+    font-size: 12px;
+    color: #afb1b3;
+}
+
+/* UPDATE */
+
+.picture {
+    width: 16rem;
+    /* margin-left: 120px; */
+    margin-top: 25px;
+}
+
+.last-heading {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.last-paragraph {
+    color: #575656c5;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.section-update {
+    background-color: #fcfcfc;
+    padding-bottom: 20px;
+}
+
+.update {
+    margin-top: 75px; 
+    padding-right: 30px;
+}
+
+.section-update .signup-last {
+    padding-bottom: 110px;
+}
+
+
+
+/* FOOTER */
+#footer {
+    color: #000000;
+    font-size: 14px;
+    }
+
+    .logo {
+        font-size: 25px;
+        font-weight: 800;
+        color: #000000;
+        border: 1px solid transparent;
+    }
+ul {
+        list-style: none;
+        font-size: 18px;
+        color: #4c4c4c!important;
+    }
+
+.link-style {
+    padding-left: 40px;
+}
+
+.link-heading {
+    margin-left: 40px; 
+}
+
+a {
+    color: #000000; 
+}
+    
+#footer .footer-top {
+background: #fcfcfc;
+padding: 60px 0 30px 0;
+}
+
+#footer .footer-top .footer-info {
+margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info h3 {
+font-size: 34px;
+color: #000000;
+
+}
+
+#footer .footer-top .footer-links ul a:hover{
+color: #6c63ff;
+text-decoration: none;
+
+}
+
+#footer .footer-top .footer-contact {
+margin-bottom: 30px;
+}
+
+.footer-paragraph {
+    font-size: 15px;
+}
+
+.contact-heading {
+    margin-left: 10px; 
+}
+
+.icon {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.twitter {
+    color: #000;
+}
+
+.facebook {
+    color: #000;
+}
+
+.Instagram {
+    color: #000;
+}
+
+.linkedin {
+    color: #000;
+}
+
+.twitter:hover {
+    color: #0ab1e9;
+}
+
+.facebook:hover {
+    color: #2e2ea0;
+}
+
+.Instagram:hover {
+    color: #c91a40;
+}
+
+.linkedin:hover {
+    color: #0073b1;
+}
+
+/* .social-icon:hover {
+    color: #74c044;
+} */
+
+#footer .footer-top .footer-contact p {
+line-height: 26px;
+}
+
+#footer .footer-top .footer-newsletter ul a:hover{
+    color: #6c63ff;
+    text-decoration: none;
+    
+    }
+
+
+
+.text-address {
+    color: #000000;
+}
+
+.envelope, .phone {
+    margin-right: 05px;
+}
+
+#footer .footer-top .footer-newsletter {
+margin-bottom: 30px;
+}
+
+.newsletter-heading {
+   margin-left: 34px; 
+}
+
+#footer .copyright {
+text-align: center;
+padding-top: 30px;
+}
+   
+#footer .credits {
+text-align: center;
+font-size: 13px;
+color: #000000;
+}
+
+
+/* .logo {
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: 18px;
+}
+
+.paragraph.smaller {
+    font-size: 12px;
+    /* margin-right: 20px; */
+    /* color: #575656c5; */
+    /* width: 120%; */
+/* }
+.paragraph.small {
+    font-size: 12px;
+    color: #575656c5;
+    /* margin-left: 70px; */
+/* }  */
+
+ /* .footer-right {
+    margin-left: 90px;
+    width: 100%; 
+} 
+
+.company-heading, .legal-heading {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.company-heading {
+    margin-left: 57px;
+}
+
+.legal-heading {
+    margin-left: 48px;
+}
+
+
+.company-link li {
+    list-style: none;
+    
+}
+
+.company-link, .legal-link {
+    text-align: center;
+    font-size: 14px;
+}
+
+.company, .legal {
+    color: #575656c5;
+}
+
+.company:hover,
+.legal:hover {
+    color:  rgb(15, 6, 139);
+    text-decoration: none;
+
+}
+
+.company-link {
+    margin-right: 5px;
+}
+
+.legal-link {
+    margin-left: 40px;
+}
+
+.legal-link li {
+    list-style: none;
+}
+
+.social-heading {
+    text-align: right;
+    margin-right: 29px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.social {
+    list-style: none;
+    text-align: right;
+}
+
+.heart-icon {
+    color: #d11111;
+}
+
+
+.social li {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.twitter, .facebook-1 {
+    color: #555;
+    margin-right: 0;
+}
+.linkedin, .instagram {
+    color: #555;
+}
+.twitter:hover {
+    color: #0ab1e9;
+}
+
+.facebook-1:hover {
+    color: #2e2ea0;
+}
+
+.linkedin:hover {
+    color: #0073b1;
+}
+
+.instagram:hover {
+    color: #c91a40;
+}  */
